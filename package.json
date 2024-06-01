@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "start": "node src/index.js",
+    "build": "react-scripts build",
     "dev": "cross-env NODE_ENV=development nodemon src/index.js",
     "test": "jest -i --colors --verbose --detectOpenHandles --runInBand",
     "test:watch": "jest -i --watchAll --runInBand",
